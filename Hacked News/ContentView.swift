@@ -26,6 +26,7 @@ struct ContentView: View {
 				
 			}
 			.navigationTitle("Hacker News")
+			.foregroundColor(Color.red)
 		}
 		.onAppear {
 			netWorkManager.fetchData()

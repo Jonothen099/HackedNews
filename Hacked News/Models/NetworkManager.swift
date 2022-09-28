@@ -8,8 +8,9 @@
 import Foundation
 class NetworkManager: ObservableObject{
 	
-	@Published var posts = [Post]()
 	
+	@Published var posts = [Post]()
+
 	func fetchData(){
 		if let url = URL(string: "http://hn.algolia.com/api/v1/search?tags=front_page"){
 			let session = URLSession(configuration: .default)
