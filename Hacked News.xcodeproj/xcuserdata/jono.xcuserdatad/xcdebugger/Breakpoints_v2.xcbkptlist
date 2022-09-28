@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8E6AE817-84F1-4ABB-900B-47B8DB59A2B0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3B562B3-53FC-4531-9096-5F841334EB80"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hacked News/Models/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "NetworkManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F3B562B3-53FC-4531-9096-5F841334EB80 - 24de9f5953ca7f82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Hacked_News.NetworkManager.posts : Swift.Array&lt;Hacked_News.Post&gt;"
+                  moduleName = "Hacked News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jono/Library/Mobile%20Documents/com~apple~CloudDocs/Important/Self%20Learning%20Programming/IOS%20Udemy%20App%20development/SwiftUi_App/Hacked%20News/Hacked%20News/Models/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "F3B562B3-53FC-4531-9096-5F841334EB80 - 8fc5cefdec459231"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hacked_News.NetworkManager.posts.getter : Swift.Array&lt;Hacked_News.Post&gt;"
+                  moduleName = "Hacked News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jono/Library/Mobile%20Documents/com~apple~CloudDocs/Important/Self%20Learning%20Programming/IOS%20Udemy%20App%20development/SwiftUi_App/Hacked%20News/Hacked%20News/Models/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "F3B562B3-53FC-4531-9096-5F841334EB80 - f8021e9d87ddc45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hacked_News.NetworkManager.posts.setter : Swift.Array&lt;Hacked_News.Post&gt;"
+                  moduleName = "Hacked News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jono/Library/Mobile%20Documents/com~apple~CloudDocs/Important/Self%20Learning%20Programming/IOS%20Udemy%20App%20development/SwiftUi_App/Hacked%20News/Hacked%20News/Models/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "F3B562B3-53FC-4531-9096-5F841334EB80 - f4f184e9eb3872b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hacked_News.NetworkManager.posts.modify : Swift.Array&lt;Hacked_News.Post&gt;"
+                  moduleName = "Hacked News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jono/Library/Mobile%20Documents/com~apple~CloudDocs/Important/Self%20Learning%20Programming/IOS%20Udemy%20App%20development/SwiftUi_App/Hacked%20News/Hacked%20News/Models/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F3B562B3-53FC-4531-9096-5F841334EB80 - c610129edb4e9513"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hacked_News.NetworkManager.posts.modify : Swift.Array&lt;Hacked_News.Post&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Hacked News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jono/Library/Mobile%20Documents/com~apple~CloudDocs/Important/Self%20Learning%20Programming/IOS%20Udemy%20App%20development/SwiftUi_App/Hacked%20News/Hacked%20News/Models/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "F3B562B3-53FC-4531-9096-5F841334EB80 - 6a2f02840fa8a70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hacked_News.NetworkManager.$posts.getter : Combine.Published&lt;Swift.Array&lt;Hacked_News.Post&gt;&gt;.Publisher"
+                  moduleName = "Hacked News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jono/Library/Mobile%20Documents/com~apple~CloudDocs/Important/Self%20Learning%20Programming/IOS%20Udemy%20App%20development/SwiftUi_App/Hacked%20News/Hacked%20News/Models/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "F3B562B3-53FC-4531-9096-5F841334EB80 - decdd400824d0004"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hacked_News.NetworkManager.$posts.setter : Combine.Published&lt;Swift.Array&lt;Hacked_News.Post&gt;&gt;.Publisher"
+                  moduleName = "Hacked News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jono/Library/Mobile%20Documents/com~apple~CloudDocs/Important/Self%20Learning%20Programming/IOS%20Udemy%20App%20development/SwiftUi_App/Hacked%20News/Hacked%20News/Models/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "F3B562B3-53FC-4531-9096-5F841334EB80 - 8a8c8f573f73304e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hacked_News.NetworkManager.$posts.modify : Combine.Published&lt;Swift.Array&lt;Hacked_News.Post&gt;&gt;.Publisher"
+                  moduleName = "Hacked News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jono/Library/Mobile%20Documents/com~apple~CloudDocs/Important/Self%20Learning%20Programming/IOS%20Udemy%20App%20development/SwiftUi_App/Hacked%20News/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F3B562B3-53FC-4531-9096-5F841334EB80 - a7f644ab5d84911a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hacked_News.NetworkManager.$posts.modify : Combine.Published&lt;Swift.Array&lt;Hacked_News.Post&gt;&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Hacked News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jono/Library/Mobile%20Documents/com~apple~CloudDocs/Important/Self%20Learning%20Programming/IOS%20Udemy%20App%20development/SwiftUi_App/Hacked%20News/Hacked%20News/Models/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "F3B562B3-53FC-4531-9096-5F841334EB80 - 24373cd0049843be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hacked_News.NetworkManager.init() -&gt; Hacked_News.NetworkManager"
+                  moduleName = "Hacked News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jono/Library/Mobile%20Documents/com~apple~CloudDocs/Important/Self%20Learning%20Programming/IOS%20Udemy%20App%20development/SwiftUi_App/Hacked%20News/Hacked%20News/Models/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
