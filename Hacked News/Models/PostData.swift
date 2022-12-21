@@ -7,9 +7,6 @@
 
 import Foundation
 
-struct Results: Decodable{
-	let hits: [Post]
-}
 
 struct Post: Decodable, Identifiable{
 	// using computed property to return the objectID, this needs to be done cuz the Json file has value objectID as their id while if we wanna use Identifiable protocols from swift, we need to have the id var
@@ -21,4 +18,10 @@ struct Post: Decodable, Identifiable{
 	let points: Int
 	let title: String
 	let url: String?
+}
+
+
+
+struct Results: Decodable{
+	let hits: [Post]
 }

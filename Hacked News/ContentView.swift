@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-		// in order to use the UIKit struct in swiftUI observedObject will be used as a listener to ObservableObject broadcaster from any other swift files
+	// in order to use the UIKit struct in swiftUI observedObject will be used as a listener to ObservableObject broadcaster from any other swift files
 	@ObservedObject var netWorkManager = NetworkManager()
 	
 	var body: some View {
@@ -20,13 +20,17 @@ struct ContentView: View {
 					HStack {
 						Text(String(post.points))
 							.padding(5)
+							.foregroundColor(.secondary)
+							.frame(width: 50, alignment: .leading)
 						Text(post.title)
+							.font(.subheadline.bold())
+							.foregroundColor(.primary)
 					}.padding(4)
 				}
-				
+				 
 			}
-			.navigationTitle("Hacker News")
-			.foregroundColor(Color.red)
+			.navigationTitle("Tech News")
+			.listStyle(.grouped)
 		}
 		.onAppear {
 			netWorkManager.fetchData()
@@ -39,9 +43,3 @@ struct ContentView_Previews: PreviewProvider {
 		ContentView()
 	}
 }
-	//
-	//let posts = [
-	//	Post(id: "1", title: "Hello"),
-	//	Post(id: "2", title: "Bonjour"),
-	//	Post(id: "3", title: "Hola")
-	//]

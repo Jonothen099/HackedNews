@@ -20,11 +20,13 @@ class NetworkManager: ObservableObject{
 					if let safeData = data{
 						do {
 							// decoding the safedata into Results Struct/array
+							
 							let results = try decoder.decode(Results.self, from: safeData)
 							// DispatchQueue.main.async is a method to allow ur device to process the data fetching, otherwise you will get an error or ur app will crashed
 							// usually this is being done when we re tapping into the @Published var
 							DispatchQueue.main.async {
 									// getting the decoded data that stored in the Results struct into posts array so that it can be used in ContentView.swift
+								print(results)
 								self.posts = results.hits
 							}
 							
